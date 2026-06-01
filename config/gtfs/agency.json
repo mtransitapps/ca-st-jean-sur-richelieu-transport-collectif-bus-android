@@ -1,4 +1,5 @@
 {
+    "agency_id_cleanup_regex": "^Ville\\s+de\\s+",
     "target_route_type_id": 3,
     "default_color": "B2334E",
     "default_color_comment": "RED (from web-site CSS)",
