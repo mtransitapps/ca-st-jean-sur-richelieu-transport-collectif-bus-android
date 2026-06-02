@@ -1,0 +1,28 @@
+{
+    "default_route_id_enabled": true,
+    "use_route_short_name_for_route_id": true,
+    "route_id_cleanup_regex": "^zenbus:Line:|:LOC$",
+    "default_route_long_name_enabled": true,
+    "direction_finder_enabled": true,
+    "allow_non_descriptive_head_signs_until": {},
+    "trip_headsign_remove_via": true,
+    "trip_headsign_cleaners": [
+        {
+            "regex": "brossardvia\\s+",
+            "ignore_case": true,
+            "replacement": "Brossard via "
+        },
+        {
+            "regex": "\\s+direct$",
+            "ignore_case": true
+        },
+        {
+            "regex": "saint[\\s+|-]jean[\\s+|-]sur[\\s+|-]richelieu",
+            "ignore_case": true,
+            "replacement": "Saint-Jean-sur-Richelieu"
+        }
+    ],
+    "stop_id_cleanup_regex": "^zenbus:StopPoint:SP:|:LOC$",
+    "use_stop_code_for_stop_id": true,
+    "stop_name_cleaners": []
+}
