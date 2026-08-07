@@ -2,6 +2,12 @@
     "default_route_id_enabled": true,
     "use_route_short_name_for_route_id": true,
     "route_id_cleanup_regex": "^zenbus:Line:|:LOC$",
+    "route_id_next_char_configs": [
+        {
+            "char": "MGF",
+            "id_part": 1376000
+        }
+    ],
     "default_route_long_name_enabled": true,
     "direction_finder_enabled": true,
     "allow_non_descriptive_head_signs_until": {},
