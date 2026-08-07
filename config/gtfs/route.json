@@ -2,6 +2,12 @@
     "default_route_id_enabled": true,
     "use_route_short_name_for_route_id": true,
     "route_id_cleanup_regex": "^zenbus:Line:|:LOC$",
+    "route_id_next_char_configs": [
+        {
+            "char": "MGF",
+            "id_part": 1376000
+        }
+    ],
     "default_route_long_name_enabled": true,
     "direction_finder_enabled": true,
     "allow_non_descriptive_head_signs_until": {},
@@ -24,5 +30,11 @@
     ],
     "stop_id_cleanup_regex": "^zenbus:StopPoint:SP:|:LOC$",
     "use_stop_code_for_stop_id": true,
+    "stop_id_not_supported_configs": [
+        { 
+            "original_stop_id": "MGF",
+            "stop_id_int": 1376000
+        }
+    ],
     "stop_name_cleaners": []
 }
