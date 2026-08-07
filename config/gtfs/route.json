@@ -30,5 +30,11 @@
     ],
     "stop_id_cleanup_regex": "^zenbus:StopPoint:SP:|:LOC$",
     "use_stop_code_for_stop_id": true,
+    "stop_id_not_supported_configs": [
+        { 
+            "original_stop_id": "MGF",
+            "stop_id_int": 1376000
+        }
+    ],
     "stop_name_cleaners": []
 }
